@@ -7,7 +7,7 @@ import time
 
 st.title('mindbrain')
 
-url = "http://0.0.0.0:8000/transcribe" # временный айпи, как только сервак дадут - исправим на нормальный.
+url = "http://api.darkmeleee.space:3000/transcribe" # временный айпи, как только сервак дадут - исправим на нормальный.
 
 
 
