@@ -61,7 +61,7 @@ if st.button('Отправить'):
         with st.spinner('Загрузка...'):
             textfin = load_data(f)
             emotion = load_emotion(f)
-            st.write("Эмоция: злой")
+            st.write(emotion)
             textfinally = load_answer(textfin)
             st.text(textfinally)
             audio = load_speech(textfinally)
