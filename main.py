@@ -70,5 +70,9 @@ if st.button('Отправить'):
     if uploaded_file is not None:
         with st.spinner('Загрузка...'):
             textfin = load_data(uploaded_file)
+            emotion = load_emotion(uploaded_file)   
+            st.write(emotion)
             textfinally = load_answer(textfin)
-        st.text(textfinally)
+            st.text(textfinally)
+            audio = load_speech(textfinally)
+            st.audio(audio, format="audio/wav", loop=False)
