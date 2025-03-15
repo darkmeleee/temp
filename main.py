@@ -7,10 +7,10 @@ import time
 
 st.title('mindbrain')
 
-url = "http://46.48.56.246:3000/transcribe" # временный айпи, как только сервак дадут - исправим на нормальный.
-url2 = "http://46.48.56.246:3000/get_answer_mistral/"
-url3 = "http://46.48.56.246:3000/synthesize_answer/"
-url4 = "http://46.48.56.246:3000/get_emotion"
+url = "http://212.41.6.42:3000/transcribe" # временный айпи, как только сервак дадут - исправим на нормальный.
+url2 = "http://212.41.6.42:3000/get_answer_mistral/"
+url3 = "http://212.41.6.42:3000/synthesize_answer/"
+url4 = "http://212.41.6.42:3000/get_emotion"
 
 
 
